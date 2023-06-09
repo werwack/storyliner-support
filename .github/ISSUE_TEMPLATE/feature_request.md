@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+**Which StoryLiner edition and version are you using?**
+StoryLiner Essential? Storyboard? Studio?
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
