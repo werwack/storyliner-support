@@ -8,7 +8,8 @@ assignees: ''
 ---
 
 **Infos on the context**
-- Add-on version: 
+- Add-on edition: StoryLiner Essential? / Storyboard? / Studio?
+- Add-on version (v x.x.x): 
 - Blender version, from installer or from zip: 
 - Blender was launched in Admin mode?
 - OS: 
