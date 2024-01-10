@@ -39,7 +39,7 @@ If you already are a user of StoryLiner and you are facing some "unnatural troub
 If you are looking for help:
 <ul>
     <li> Read the <b><a href="https://werwackfx.com/storyliner/doc" title="Read StoryLiner online documentation" target="_blank">online documentation</a></b>, the <b><a href="https://werwackfx.com/storyliner/doc/how-to/how-to.html" title="Check if you know all thehow-tos" target="_blank">how-tos</a></b>, the <b><a href="https://werwackfx.com/storyliner/doc/how-to/learning-resources.html" title="Watch the tutorials" target="_blank">learning materials</a></b>...</li>
-    <li> Come and join us on <b><a href="https://discord.com/channels/748896940531646484/1112820932432646224" title="StoryLine on Spitefire Storyboards Discord" target="_blank">Discord</a></b>,</li>
+    <li> Come and join us on <b><a href="https://discord.gg/gTG48jqWcm" title="StoryLine on Spitefire Storyboards Discord" target="_blank">Discord</a></b>,</li>
     <li> <b>Scream 😁 (... and I'll do my best to assist you)</b></li>
 </ul>
 
