@@ -31,7 +31,7 @@ In addition to all the drawing features coming to boost the Grease Pencil enviro
   <img src="images/Documentation.png" width="160" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/werwack/storyliner-support/blob/main/downloads/README.md" title="Download the Light Edition of StoryLiner" target="_self">
+  <a href="https://github.com/werwack/storyliner-support/releases" title="Download the Light Edition of StoryLiner" target="_self">
   <img src="images/Download.png" width="160" />
   </a>
 </p>
