@@ -67,7 +67,7 @@ If you are looking for help:
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#studio-edition" title="StoryLiner Studio Edition">
-  <img src="images/StoryLiner_StudioEdition_Sizedn.png" width="100" />
+  <img src="images/StoryLiner_StudioEdition_Sized.png" width="100" />
   </a>
 </p>
 
