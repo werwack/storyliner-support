@@ -1,7 +1,7 @@
 ## Download StoryLiner Light Edition
 
 <p align="center">
-  <img align="center" width="auto" height="auto" src="images/StoryLiner_LightEdition_Sized.png">
+  <img align="center" width="auto" height="auto" src="../images/StoryLiner_LightEdition_Sized.png">
 </p>
 
 **StoryLiner Light Edition is currently at version V 1.0.14**
