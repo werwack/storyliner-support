@@ -57,15 +57,15 @@ If you are looking for help:
   <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#light-edition" title="StoryLiner Light Edition">
   <img src="images/StoryLiner_LightEdition_Sized.png" width="100" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#essential-edition" title="StoryLiner Previz Edition">
   <img src="images/StoryLiner_EssentialEdition_Sized.png" width="100" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#storyboard-edition" title="StoryLiner Storyboard Edition">
   <img src="images/StoryLiner_StoryboardEdition_Sized.png" width="100" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#studio-edition" title="StoryLiner Studio Edition">
   <img src="images/StoryLiner_StudioEdition_Sized.png" width="100" />
   </a>
