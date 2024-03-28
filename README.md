@@ -57,7 +57,7 @@ If you are looking for help:
   <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#light-edition" title="StoryLiner Light Edition">
   <img src="images/StoryLiner_LightEdition_Sized.png" width="100" />
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#essential-edition" title="StoryLiner Previz Edition">
   <img src="images/StoryLiner_EssentialEdition_Sized.png" width="100" />
   </a>
