@@ -1,11 +1,11 @@
 ## Bug report
 
 ## Infos on the context
-- Add-on edition: StoryLiner Light / Previz / Storyboard / Studio
+- **Add-on edition:** StoryLiner Light / Previz / Storyboard / Studio
 - **Add-on version:** V 1.x.x 
 - Blender version, from installer or from zip: 
 - Blender was launched in Admin mode?
-- OS: 
+- **OS:** 
 - Bug was also on previous versions (I don't know / No / Yes, seen on version x.x):
 
 ## Describe the bug
