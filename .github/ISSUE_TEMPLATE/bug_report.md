@@ -1,4 +1,9 @@
-## Bug report
+---
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: bug
+---
 
 ## Infos on the context
 - **Add-on edition:** StoryLiner Light / Previz / Storyboard / Studio
