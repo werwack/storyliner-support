@@ -58,19 +58,19 @@ If you are looking for help:
 <br>
 
 <p align="center">
-  <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#light-edition" title="StoryLiner Light Edition">
+  <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#light-ed" title="StoryLiner Light Edition">
   <img src="images/StoryLiner_LightEdition_Sized.png" width="100" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#essential-edition" title="StoryLiner Previz Edition">
+  <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#essential-ed" title="StoryLiner Previz Edition">
   <img src="images/StoryLiner_EssentialEdition_Sized.png" width="100" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#storyboard-edition" title="StoryLiner Storyboard Edition">
+  <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#storyboard-ed" title="StoryLiner Storyboard Edition">
   <img src="images/StoryLiner_StoryboardEdition_Sized.png" width="100" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#studio-edition" title="StoryLiner Studio Edition">
+  <a href="https://werwackfx.com/storyliner/doc/editions/editions.html#studio-ed" title="StoryLiner Studio Edition">
   <img src="images/StoryLiner_StudioEdition_Sized.png" width="100" />
   </a>
 </p>
