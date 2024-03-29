@@ -83,7 +83,7 @@ If you are looking for help:
 <br>
 <p align="center">
   <strong>Look at the <a href="https://werwackfx.com/storyliner/doc/editions/edition_differences.html" title="Difference between StoryLiner editions">
-  features of each edition</a> and pick the one that best fits your needs on Blender Market ! (Well... when it is available 😁)
+  features of each edition</a> and pick the one that best fits your needs on Blender Market !<br>(Well... when it is available 😁)
   </strong>
 <p>
 
