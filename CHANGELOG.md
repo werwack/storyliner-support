@@ -1,24 +1,21 @@
--------------------------
-# 1.0.61
-## 1.0.61
-- **Beta**
--------------------------
 
 
-    ### Bug fixes
-      - Fixed missing font error on Mac
-
 -------------------------
-## 1.0.52
-- **Release**
+# V 1.0.61 - **Beta**
 -------------------------
 
-  ### Bug fixes
-  - Fixed error at first register time when PIL is not installed
+### Bug fixes
+- Fixed missing font error on Mac
 
 -------------------------
-## 1.0.51
-- **Release**
+# 1.0.52 - **Release**
+-------------------------
+
+### Bug fixes
+- Fixed error at first register time when PIL is not installed
+
+-------------------------
+# V 1.0.51 - **Release**
 -------------------------
 
 ### Bug fixes
@@ -26,8 +23,7 @@
 - Fixed error message in rendered of Essential ed, due to the use of otio
 
 -------------------------
-## 1.0.50
-- **Release**
+# V 1.0.50 - **Release**
 -------------------------
 
 ### UI
@@ -48,8 +44,7 @@
 
 
 -------------------------
-## 1.0.25
-- **Pre Release #3**
+# V 1.0.25 - **Pre Release #3**
 -------------------------
 
 ### Edit Play Mode
@@ -80,8 +75,7 @@
 - Fixed a bug in the Retimer where a crash occurred when time range was in the deleted range
 
 -------------------------
-## 1.0.23
-- **Pre Release #2**
+# V 1.0.23 - **Pre Release #2**
 -------------------------
 
 ### UI
@@ -129,7 +123,7 @@
 - Added support for tooltip in Component2D
 
 -------------------------
-## 1.0.22
+# V 1.0.22
 -------------------------
 
 Packed Previz Edition
@@ -138,8 +132,7 @@ Packed Previz Edition
 - Reorganized imports
 
 -------------------------
-## 1.0.21
-- **Pre Release #1**
+# V 1.0.21 - **Pre Release #1**
 -------------------------
 
 Packed Light Edition
@@ -152,8 +145,7 @@ Packed Light Edition
 - Restructured features and tools
 
 -------------------------
-## 1.0.14
-- **Beta Release #5**
+# V 1.0.14 - **Beta Release #5**
 -------------------------
 
 ### Code
@@ -163,8 +155,7 @@ Packed Light Edition
 - Fixed an error when rendering with StampInfo not installed
 
 -------------------------
-## 1.0.13
-- **Beta Release #4**
+# V 1.0.13 - **Beta Release #4**
 -------------------------
 
 ### Storyboard tools and workflow
@@ -187,8 +178,7 @@ Packed Light Edition
 - Refactored add-on preferences inheritance
 
 -------------------------
-## 1.0.10
-- **Beta Release #3**
+# V 1.0.10 - **Beta Release #3**
 -------------------------
 
 ### Important changes
@@ -302,8 +292,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 
     
 -------------------------
-## 1.0.2
-- **Beta Release #2**
+# V 1.0.2 - **Beta Release #2**
 -------------------------
 ### Editions
 - OpenTimelineIO is not installed anymore for Mac since it seems not able to compile successfully
@@ -330,8 +319,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 - Fixed a crash of the Preferences panel on Mac due to an invalid file path
 
 -------------------------
-## 1.0.1
-- **Beta Release #1**
+# V 1.0.1 - **Beta Release #1**
 -------------------------
 ### UI
 - Improved the Add New Shot window to always get the current time as the shot start
@@ -363,8 +351,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 - Fixed invalid region in Edit Timeline with several 3D views
 
 -------------------------
-## 0.9.413
-- **Alpha Release #16**
+# V 0.9.413 - **Alpha Release #16**
 -------------------------
 ### UI
 - Added the sequence properties menu also to the Edit tools menu
@@ -379,8 +366,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 - Set the Edit layout to Studio Edition only
 
 -------------------------
-## 0.9.412
-- **Alpha Release #15**
+# V 0.9.412 - **Alpha Release #15**
 -------------------------
 ### UX
 - Improved undos on shot creation and deletion
@@ -397,8 +383,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 - Temporary fixed a crash on Mac in the texture shader
 
 -------------------------
-## 0.9.411
-- **Alpha Release #14**
+# V 0.9.411 - **Alpha Release #14**
 -------------------------
 ### UI Storyboard
 - Fixed canvas layer state that was changed when all the layers states (lock and visibility) were changed
@@ -418,8 +403,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 - Fixed sequence video files not always rendered
 
 -------------------------
-## 0.9.410
-- **Alpha Release #13**
+# V 0.9.410 - **Alpha Release #13**
 -------------------------
 ### UI Storyboard
 - Change the position of the Draw button, made its icon reflect the current sub mode
@@ -433,8 +417,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 - Fixed rendering issue for shots with a "." char in their name
 
 -------------------------
-## 0.9.401
-- **Alpha Release #12**
+# V 0.9.401 - **Alpha Release #12**
 -------------------------
 ### UI
 - Change behavior of Overlay Toggle button
@@ -445,8 +428,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 - Fixed a rendering issue when using the Playblast mode
 
 -------------------------
-## 0.9.400
-- **Alpha Release #11**
+# V 0.9.400 - **Alpha Release #11**
 -------------------------
 First version without BGL. Fully working on GPU !!!
 This alpha release is supported by Blender 4.0 Beta and sould be supported by Metal on Mac OS
@@ -463,15 +445,14 @@ It is fully based on the library GPU, and completely replace the Sequence Timeli
 - Rendering: Fixed a crash when pressing the Snapshots and the Edit Board rendering modes
 
 -------------------------
-## 0.9.110
+# V 0.9.110
 -------------------------
 
 ### Base version for new Edit Timeline
 
 
 -------------------------
-## 0.9.103
-- **Alpha Release #10**
+# V 0.9.103 - **Alpha Release #10**
 -------------------------
 ### Rendering
 - Completely refactored the rendering queue for a better support of output file formats
@@ -511,14 +492,12 @@ It is fully based on the library GPU, and completely replace the Sequence Timeli
 - wrote a function getFontSize() to encapsulate getsize from PIL, which became deprecated since PIL 10.0
 
 -------------------------
-## 0.9.7
-- **Alpha Release #9**
+# V 0.9.7 - **Alpha Release #9**
 -------------------------
 cf commits
 
 -------------------------
-## 0.9.6
-- **Alpha Release #9**
+# V 0.9.6 - **Alpha Release #9**
 -------------------------
 ### UI
 - Removed Toggle Shots Stack Interaction from the main panel (cause not so much used)
@@ -527,8 +506,7 @@ cf commits
 - Fixed issue with the Resolution Percentage during rendering
 
 -------------------------
-## 0.9.5
-- **Alpha Release #8**
+# V 0.9.5 - **Alpha Release #8**
 -------------------------
 ### Prefs
 - Placed the UI Behavior properties for shot selection above in the list
@@ -546,22 +524,23 @@ cf commits
 - Added codes for warnings and a warning when there is a layout issue in the scene
 
 -------------------------
-## 0.9.4
-- **Alpha Release #7**
+# V 0.9.4 - **Alpha Release #7**
 -------------------------
 Added support for editions
 Updated documentation
 
------
-## 0.9.2
+-------------------------
+# V 0.9.2
+-------------------------
 ### UI
 - Added the StoryLiner logo to the About and Prefs panels
 - Make the From File Project Settings parameter visible only when this setting is chosen
 - Added the StoryLiner logo
 - Improved some tooltips
 
------
-## 0.9.1
+-------------------------
+# V 0.9.1
+-------------------------
 ### UI and concepts
 - Replaced the term Take to Edit in the user interface
 
@@ -572,8 +551,7 @@ Updated documentation
 - Updated the documentation
 
 -------------------------
-## 0.8.28
-- **Alpha Release #6**
+# V 0.8.28 - **Alpha Release #6**
 -------------------------
 Added Resets buttons to the pref panel
 
@@ -582,8 +560,7 @@ Cleaned Resets module
 Cleaned methods to assign a category to a property
 
 -------------------------
-## 0.8.27
-- **Alpha Release #5**
+# V 0.8.27 - **Alpha Release #5**
 -------------------------
 ### Code refactor
 - Initialization process in the scene has been refactored and cleaned
@@ -594,8 +571,7 @@ Cleaned methods to assign a category to a property
 - Fixes a preset buttons lock issue
 
 -------------------------
-## 0.8.26
-- **Alpha Release #4**
+# V 0.8.26 - **Alpha Release #4**
 -------------------------
 ### Bug fixes:
 - Improved StoryLiner init state detection
@@ -603,16 +579,14 @@ Cleaned methods to assign a category to a property
 - Set hard min and max values to the number or rows and columns of the Edit Board
 
 -------------------------
-## 0.8.25
-- **Alpha Release #3**
+# V 0.8.25 - **Alpha Release #3**
 -------------------------
 ### Bug fixes:
 - Rename cameras from shot names fixed
 - attempt to cacht a crash when issues in the installation of the Python libs
 
 -------------------------
-## 0.8.23
-- **Alpha Release #2**
+# V 0.8.23 - **Alpha Release #2**
 -------------------------
 ### Toolbar
 - Improved tools for Storyboard layout
@@ -621,16 +595,17 @@ Cleaned methods to assign a category to a property
 - Started rendering task of camera backgrounds
 - Fixed small bugs here and there
 
------
-## 0.8.22
+-------------------------
+# V 0.8.22
+-------------------------
 ### Toolbar
 - Added items dedicated to Storyboard
 
 - Fixed wrong shot type in Add New Shot dialog window
 
------
-## 0.8.21
-
+-------------------------
+# V 0.8.21
+-------------------------
 ### Layouts
 - Introduction of new layouts: Hybrid and Edit
 - Clean-up in the Preferences panel for layout related features and behaviors
@@ -646,12 +621,12 @@ Cleaned methods to assign a category to a property
 - Various crashes during rendering 
 
 -------------------------
-## 0.8.15
-- **Alpha Release**
+# V 0.8.15 - **Alpha Release**
 -------------------------
 
------
-## 1.0.16
+-------------------------
+# V 1.0.16
+-------------------------
 ### Storyboarding
 - Moved the batch shots creations tools in the Shots menu to the Shot Tools section
 - Made the indice of the first shot of the batch stoyborad frame creation start at 10 instead of 0
@@ -670,19 +645,22 @@ Cleaned methods to assign a category to a property
 - Splitted the add-on preferences in several files
 - In the gpu_2d library components are now affected by the opacity of the parent by default
 
------
-## 1.0.13
+-------------------------
+# V 1.0.13
+-------------------------
 ### Rendering
 - Added a progress bar in the render panel, and the ability to pause and cancel the rendering
 
------
-## 1.0.12
+-------------------------
+# V 1.0.12
+-------------------------
 - Removed the notion of current take
 - Added a list box to display and manage all the takes at the same time
 - Fixed rename of shot dependencies when a camera shot is renamed
 
------
-## 1.0.11
+-------------------------
+# V 1.0.11
+-------------------------
 - Added a global display mode to show and hide quick help buttons
 - Exposed some options for the Sequence Timeline to change its display size
 - Added a feature to make the name of the camera match the name of its shot
@@ -691,48 +669,56 @@ Cleaned methods to assign a category to a property
 - Added a button to set the shot using the selected camera as the current one
 - Fixed a crash in Duplicate Shot
 
------
-## 1.0.10
+-------------------------
+# V 1.0.10
+-------------------------
 ### Rendering
 - Deep refactor in the rendering function
 - Fixed the sound that wasn't rendered for image sequences only
 - Fixed the playblast rendering
 
------
-## 1.0.9
+-------------------------
+# V 1.0.9
+-------------------------
 - Improved quick help components
 
------
-## 1.0.8
+-------------------------
+# V 1.0.8
+-------------------------
 ### Storyboard Export to PDF
 - Added an option to preserve the rendered snapshots
 - Cleaned some function names
 
------
-## 1.0.7
+-------------------------
+# V 1.0.7
+-------------------------
 - Updated the renderers available in the Render panel to support Cycles hardware rendering
 - Revamped the UI of the renderers
 - Fixed the name of the operator classes to add 'OT'
 
------
-## 1.0.6
+-------------------------
+# V 1.0.6
+-------------------------
 ### Storyboard Export to PDF
 - Added an Export Edit Board to PDF rendering button
 
------
-## 1.0.5
+-----------------------------
+# V 1.0.5
+-------------------------
 ### Stamp Info
 - Added a "production name" field
 
------
-## 1.0.4
+-------------------------
+# V 1.0.4
+-------------------------
 - Added an import takes from Shot Manager feature
 
 - Removed the OTIO distribution and get it directly online
 - Fixed the ZippAddon script for the needs of StoryLiner
 
------
-## 1.0.3
+-------------------------
+# V 1.0.3
+-------------------------
 ### Project Settings
 - Project Settings can be saved to a json file and reloaded
 - Introduced a mode to have the settings directly taken from a json file and udpdated when the file changes
@@ -740,13 +726,15 @@ Cleaned methods to assign a category to a property
 ### Stamp Info
 - Settings can now be saved to a json file and reloaded
 
------
-## 1.0.2
+-------------------------
+# V 1.0.2
+-------------------------
 - Deep refactor to rename from Shot Manager to StoryLiner
 - CSS style sheet in doc
 
------
-## 1.0.1
+-------------------------
+# V 1.0.1
+-------------------------
 - Forked from Ubisoft Shot Manager add-on (https://github.com/ubisoft/shotmanager) V2.1.42
 
 
