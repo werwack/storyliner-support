@@ -1,19 +1,20 @@
 -------------------------
+# 1.0.61
 ## 1.0.61
 - **Beta**
 -------------------------
 
 
-### Bug fixes
-- Fixed missing font error on Mac
+    ### Bug fixes
+      - Fixed missing font error on Mac
 
 -------------------------
 ## 1.0.52
 - **Release**
 -------------------------
 
-### Bug fixes
-- Fixed error at first register time when PIL is not installed
+  ### Bug fixes
+  - Fixed error at first register time when PIL is not installed
 
 -------------------------
 ## 1.0.51
