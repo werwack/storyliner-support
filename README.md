@@ -19,9 +19,9 @@ In addition to all the drawing features coming to boost the Grease Pencil enviro
 
 
 > [!NOTE]
-> **Advanced editions of StoryLiner are paid products. They are available on [Blender Market](https://blendermarket.com/products/storyliner).**
-> 
 > The Light edition is free. **[Give it a try !!](https://github.com/werwack/storyliner-support/releases)** Click on the Download button bellow and follow the installation instruction.
+>
+> **Advanced editions of StoryLiner are paid products. They are available on [Blender Market](https://blendermarket.com/products/storyliner).**
 
 
 
