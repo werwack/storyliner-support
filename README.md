@@ -19,7 +19,7 @@ In addition to all the drawing features coming to boost the Grease Pencil enviro
 
 
 > [!NOTE]
-> **StoryLiner is a paid product. It will be available on Blender Market in May 2024.**
+> **Advanced editions of StoryLiner are paid products. They are available on [Blender Market](https://blendermarket.com/products/storyliner).**
 > 
 > The Light edition is free. **[Give it a try !!](https://github.com/werwack/storyliner-support/releases)** Click on the Download button bellow and follow the installation instruction.
 
