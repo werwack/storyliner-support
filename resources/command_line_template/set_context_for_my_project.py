@@ -15,6 +15,8 @@ StoryLiner
 Call this file in command line to launch Blender in a "project context", ie in a context where StoryLiner gets all the project information
 thanks to a reference to its Project Settings json file.
 
+See how to setup a configuration to launch an instance of Blender in the context of your project here:
+https://werwackfx.com/storyliner/doc/how-to/how-to-useinproduction.html#launching-blender-in-a-context-of-project
 
 """
 
@@ -23,13 +25,10 @@ import bpy
 
 # set your project file path here:
 # eg: project_settings_file_path = "z:/MyProject/MyProjectSettings.json"
-
 project_settings_file_path = "z:/MyProject/MyProjectSettings.json"
 
-# wkip add-on should be enabled - test to add
 if "storyliner" not in bpy.context.preferences.addons:
     print("StoryLiner not found")
-
 else:
     try:
         from storyliner.api.launch_blender_in_project_context import launchBlenderInProjectContext
