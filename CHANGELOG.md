@@ -1,8 +1,165 @@
-
+-------------------------
+# V 1.1.30
+-------------------------
+### UI
+- Responsive ui for main panel and shot properties
 
 -------------------------
-# V 1.0.61 - **Beta**
+# V 1.1.10
 -------------------------
+### UI
+- Responsive list view for shot list
+
+### Bug fixes
+- Error in Viewport Frame when Edit Mode was activated on GPs
+
+-------------------------
+# V 1.1.9 - **Beta**
+-------------------------
+### Bug fixes
+- Duplicated cameras now keep their parent 
+
+-------------------------
+# V 1.1.8 - **Beta**
+-------------------------
+### General
+- Better support of framerates with decimal values
+
+### UI
+- Remove the fps warning that was displayed when framerate was 23.98, 29.97 and 59.94
+
+-------------------------
+# V 1.1.7 - **Beta**
+-------------------------
+### Shots
+- Exposed Depth of Field properties in the Camera Option rollout in the Shot Properties
+- Added buttons to toggle composition guides for thirds and center in Shots Global Control
+
+### Bug fixes
+- Fixed missing import in stamp info operator
+- Fixed test of type of current object for multiframe edit display
+
+-------------------------
+# V 1.1.6 - **Beta**
+-------------------------
+### Bug fixes
+- Issue in the display of the playback options
+
+-------------------------
+# V 1.1.5 - **Beta**
+-------------------------
+### Bug fixes
+- Stamp Info from Project Settings wasn't correctly displayed in rendered files
+
+-------------------------
+# V 1.1.4 - **Beta**
+-------------------------
+### Blender 4.2 support
+- Added support for Eevee next
+
+### UX
+- Added Hybrid startup Blender file and workspace
+- Added a viewport colored frame when editing grease pencil on multiple frames
+
+### GP Drawing
+- Fixed list of layers for key navigation in Storyboard and 2.5D Free GP panels
+
+### Code
+- Stamp Info settings instance has been duplicated, one is now for scene and the other for Project Settings
+
+-------------------------
+# V 1.1.3 - **Beta**
+-------------------------
+### Preferences
+- Added the ability to save the preferences to a json file and to load it
+- Added an auto save of the preferences to preserve the user configuration when the add-on is disabled
+
+-------------------------
+# V 1.1.2 - **Beta**
+-------------------------
+### UI
+- Removed Pref Overlay Tools panel from the main panel menu and place the Toggle Overlays and Best Play Performance
+  settings in the add-on Preferences
+- Moved Best Play Performances button to the Playback Settings section
+- Reorganized the General UI preferences UI to expose the playback settings
+- Display of the playbar components have been improved thanks to responsive design
+
+-------------------------
+# V 1.1.1 - **Beta**
+-------------------------
+### UI
+- Added a Playback Settings collapsible area with drop frame option and opaque passepartout
+
+### Project context
+- If set, the project logo is now displayed on the project bar
+
+### Preferences
+- Button Install added to the Python library dependencies, to manually install libraries that were not installed at SL launch time
+
+### Code
+- Added manifest file to be Blender 4.2 extensions compliant
+
+### Resources
+- Modified StoryLiner Packer to support extensions
+
+-------------------------
+# V 1.0.123 - **Beta**
+-------------------------
+### Launch Blender in Project context
+- first implementation of the feature
+
+-------------------------
+# V 1.0.121 - **Beta**
+-------------------------
+### Project settings
+- Introduced new project settings mode to have file project settings defined at Blender file level
+- Improved warning feedbacks when issue with referenced project settings file
+- Locked main panel UI when scene props is not valid due to issue in project settings
+- Improved related documentation
+- Added support for setting up and launching a Blender in the context of a project
+
+-------------------------
+# V 1.0.101 - **Beta**
+-------------------------
+### UI
+Changed Current viewport button icon
+
+### Code
+- Attempt to change the project settings approach
+
+-------------------------
+## 1.0.70 - **Release**
+-------------------------
+
+### Bug fixes
+- Missing fps argument is some otio functions
+
+-------------------------
+## 1.0.69
+- **Wip to fix critical bug with opentimelineio**
+-------------------------
+
+### Bug fixes
+- OpentimelineIO 0.17.0 just released and makes Blender crash. This version force the uninstallation of 0.17.0, if installed,
+  then install 0.16.0
+
+-------------------------
+# V 1.0.66 - **Beta**
+-------------------------
+### UX
+- Added a change log link in the Preferences, About panel and in the menu of the main panel
+
+### Bug fixes
+- Fixed Reset Stamp Info operator that was generating an error
+- Fixed Stamp Info font error on Mac. Now using the default font
+- Attempt to fix error message on Mac when Pillow is not found
+
+-------------------------
+# V 1.0.61 - **wip**
+-------------------------
+
+### Stamp Info - code
+- Introduced a getFont function and a local font folder
 
 ### Bug fixes
 - Fixed missing font error on Mac
