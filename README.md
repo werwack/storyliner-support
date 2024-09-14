@@ -20,6 +20,7 @@ In addition to all the drawing features coming to boost the Grease Pencil enviro
 <br>
 
 **Current version is V 1.1.30**.
+
 ✨ See **what's new** in the **[change log](https://github.com/werwack/storyliner-support/blob/main/CHANGELOG.md)**.
 
 <br>
