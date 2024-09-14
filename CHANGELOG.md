@@ -1,6 +1,6 @@
 -------------------------
 # V 1.1.33
--------------------------
+
 ### Hybrid
 - Storyboard frames are now supported for cameras shared between several shots
 
@@ -14,27 +14,27 @@
 
 -------------------------
 # V 1.1.32 - **Beta**
--------------------------
+
 ### Bug fixes
 - Fixed issue [Stb_Fills Material is overridden #9](https://github.com/werwack/storyliner-support/issues/9): Stb_Fills Material is overridden when presets are applied
 - Fixed creation of canvas issues when it was re-generated
 
 -------------------------
 # V 1.1.31
--------------------------
+
 ### Bug fixes
 - Fixed issue [Can't Add Text as Child Object #12](https://github.com/werwack/storyliner-support/issues/12): missing import function preventing storyboard frame to receive children
 - Fixed issue [Adding Text as Child Object #13](https://github.com/werwack/storyliner-support/issues/13): added child text was not correctly oriented
 
 -------------------------
 # V 1.1.30
--------------------------
+
 ### UI
 - Responsive ui for main panel and shot properties
 
 -------------------------
 # V 1.1.10
--------------------------
+
 ### UI
 - Responsive list view for shot list
 
@@ -43,13 +43,13 @@
 
 -------------------------
 # V 1.1.9 - **Beta**
--------------------------
+
 ### Bug fixes
 - Duplicated cameras now keep their parent 
 
 -------------------------
 # V 1.1.8 - **Beta**
--------------------------
+
 ### General
 - Better support of framerates with decimal values
 
@@ -58,7 +58,7 @@
 
 -------------------------
 # V 1.1.7 - **Beta**
--------------------------
+
 ### Shots
 - Exposed Depth of Field properties in the Camera Option rollout in the Shot Properties
 - Added buttons to toggle composition guides for thirds and center in Shots Global Control
@@ -69,19 +69,19 @@
 
 -------------------------
 # V 1.1.6 - **Beta**
--------------------------
+
 ### Bug fixes
 - Issue in the display of the playback options
 
 -------------------------
 # V 1.1.5 - **Beta**
--------------------------
+
 ### Bug fixes
 - Stamp Info from Project Settings wasn't correctly displayed in rendered files
 
 -------------------------
 # V 1.1.4 - **Beta**
--------------------------
+
 ### Blender 4.2 support
 - Added support for Eevee next
 
@@ -97,14 +97,14 @@
 
 -------------------------
 # V 1.1.3 - **Beta**
--------------------------
+
 ### Preferences
 - Added the ability to save the preferences to a json file and to load it
 - Added an auto save of the preferences to preserve the user configuration when the add-on is disabled
 
 -------------------------
 # V 1.1.2 - **Beta**
--------------------------
+
 ### UI
 - Removed Pref Overlay Tools panel from the main panel menu and place the Toggle Overlays and Best Play Performance
   settings in the add-on Preferences
@@ -114,7 +114,7 @@
 
 -------------------------
 # V 1.1.1 - **Beta**
--------------------------
+
 ### UI
 - Added a Playback Settings collapsible area with drop frame option and opaque passepartout
 
@@ -132,13 +132,13 @@
 
 -------------------------
 # V 1.0.123 - **Beta**
--------------------------
+
 ### Launch Blender in Project context
 - first implementation of the feature
 
 -------------------------
 # V 1.0.121 - **Beta**
--------------------------
+
 ### Project settings
 - Introduced new project settings mode to have file project settings defined at Blender file level
 - Improved warning feedbacks when issue with referenced project settings file
@@ -148,7 +148,7 @@
 
 -------------------------
 # V 1.0.101 - **Beta**
--------------------------
+
 ### UI
 Changed Current viewport button icon
 
@@ -157,7 +157,6 @@ Changed Current viewport button icon
 
 -------------------------
 ## 1.0.70 - **Release**
--------------------------
 
 ### Bug fixes
 - Missing fps argument is some otio functions
@@ -165,7 +164,6 @@ Changed Current viewport button icon
 -------------------------
 ## 1.0.69
 - **Wip to fix critical bug with opentimelineio**
--------------------------
 
 ### Bug fixes
 - OpentimelineIO 0.17.0 just released and makes Blender crash. This version force the uninstallation of 0.17.0, if installed,
@@ -173,7 +171,7 @@ Changed Current viewport button icon
 
 -------------------------
 # V 1.0.66 - **Beta**
--------------------------
+
 ### UX
 - Added a change log link in the Preferences, About panel and in the menu of the main panel
 
@@ -184,7 +182,6 @@ Changed Current viewport button icon
 
 -------------------------
 # V 1.0.61 - **wip**
--------------------------
 
 ### Stamp Info - code
 - Introduced a getFont function and a local font folder
@@ -194,14 +191,12 @@ Changed Current viewport button icon
 
 -------------------------
 # 1.0.52 - **Release**
--------------------------
 
 ### Bug fixes
 - Fixed error at first register time when PIL is not installed
 
 -------------------------
 # V 1.0.51 - **Release**
--------------------------
 
 ### Bug fixes
 - Fixed crash in 2.5D Free GP edition, when a new layer was added in draw mode and autokey activated
@@ -209,7 +204,6 @@ Changed Current viewport button icon
 
 -------------------------
 # V 1.0.50 - **Release**
--------------------------
 
 ### UI
 - Added a button to show and toggle the multiframe state of the grease pencil draw mode
@@ -230,7 +224,6 @@ Changed Current viewport button icon
 
 -------------------------
 # V 1.0.25 - **Pre Release #3**
--------------------------
 
 ### Edit Play Mode
 - Fixed play loop issue when time arrived at time range end
@@ -261,7 +254,6 @@ Changed Current viewport button icon
 
 -------------------------
 # V 1.0.23 - **Pre Release #2**
--------------------------
 
 ### UI
 - Added a button to toggle the Lock View Rotation
@@ -309,7 +301,6 @@ Changed Current viewport button icon
 
 -------------------------
 # V 1.0.22
--------------------------
 
 Packed Previz Edition
 
@@ -318,7 +309,6 @@ Packed Previz Edition
 
 -------------------------
 # V 1.0.21 - **Pre Release #1**
--------------------------
 
 Packed Light Edition
 
@@ -331,7 +321,6 @@ Packed Light Edition
 
 -------------------------
 # V 1.0.14 - **Beta Release #5**
--------------------------
 
 ### Code
 - Merged code for Light edition
@@ -341,7 +330,6 @@ Packed Light Edition
 
 -------------------------
 # V 1.0.13 - **Beta Release #4**
--------------------------
 
 ### Storyboard tools and workflow
 - Added a set of copy / paste operators to duplicate strokes and their materials to other
@@ -364,7 +352,6 @@ Packed Light Edition
 
 -------------------------
 # V 1.0.10 - **Beta Release #3**
--------------------------
 
 ### Important changes
 - The orientation of the Storyboard Frame has been changed to match the general convention
@@ -478,7 +465,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
     
 -------------------------
 # V 1.0.2 - **Beta Release #2**
--------------------------
+
 ### Editions
 - OpenTimelineIO is not installed anymore for Mac since it seems not able to compile successfully
 
@@ -505,7 +492,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 
 -------------------------
 # V 1.0.1 - **Beta Release #1**
--------------------------
+
 ### UI
 - Improved the Add New Shot window to always get the current time as the shot start
 - Removed the At current Time parameter in the Duplicate Shot panel, for storyboard shots
@@ -537,7 +524,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 
 -------------------------
 # V 0.9.413 - **Alpha Release #16**
--------------------------
+
 ### UI
 - Added the sequence properties menu also to the Edit tools menu
 
@@ -552,7 +539,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 
 -------------------------
 # V 0.9.412 - **Alpha Release #15**
--------------------------
+
 ### UX
 - Improved undos on shot creation and deletion
 - Improved Open Explored tooltips
@@ -569,7 +556,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 
 -------------------------
 # V 0.9.411 - **Alpha Release #14**
--------------------------
+
 ### UI Storyboard
 - Fixed canvas layer state that was changed when all the layers states (lock and visibility) were changed
 
@@ -589,7 +576,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 
 -------------------------
 # V 0.9.410 - **Alpha Release #13**
--------------------------
+
 ### UI Storyboard
 - Change the position of the Draw button, made its icon reflect the current sub mode
 - Added a button to toggle the onion skin
@@ -603,7 +590,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 
 -------------------------
 # V 0.9.401 - **Alpha Release #12**
--------------------------
+
 ### UI
 - Change behavior of Overlay Toggle button
 
@@ -614,7 +601,7 @@ designate a grease pencil frame that can be used to receive some 2D drawings
 
 -------------------------
 # V 0.9.400 - **Alpha Release #11**
--------------------------
+
 First version without BGL. Fully working on GPU !!!
 This alpha release is supported by Blender 4.0 Beta and sould be supported by Metal on Mac OS
 
@@ -631,14 +618,12 @@ It is fully based on the library GPU, and completely replace the Sequence Timeli
 
 -------------------------
 # V 0.9.110
--------------------------
 
 ### Base version for new Edit Timeline
 
-
 -------------------------
 # V 0.9.103 - **Alpha Release #10**
--------------------------
+
 ### Rendering
 - Completely refactored the rendering queue for a better support of output file formats
 
@@ -678,12 +663,11 @@ It is fully based on the library GPU, and completely replace the Sequence Timeli
 
 -------------------------
 # V 0.9.7 - **Alpha Release #9**
--------------------------
 cf commits
 
 -------------------------
 # V 0.9.6 - **Alpha Release #9**
--------------------------
+
 ### UI
 - Removed Toggle Shots Stack Interaction from the main panel (cause not so much used)
 - Added a Toggle Viewport Toolbar instead
@@ -692,7 +676,7 @@ cf commits
 
 -------------------------
 # V 0.9.5 - **Alpha Release #8**
--------------------------
+
 ### Prefs
 - Placed the UI Behavior properties for shot selection above in the list
 
@@ -710,13 +694,13 @@ cf commits
 
 -------------------------
 # V 0.9.4 - **Alpha Release #7**
--------------------------
+
 Added support for editions
 Updated documentation
 
 -------------------------
 # V 0.9.2
--------------------------
+
 ### UI
 - Added the StoryLiner logo to the About and Prefs panels
 - Make the From File Project Settings parameter visible only when this setting is chosen
@@ -725,7 +709,7 @@ Updated documentation
 
 -------------------------
 # V 0.9.1
--------------------------
+
 ### UI and concepts
 - Replaced the term Take to Edit in the user interface
 
@@ -737,7 +721,7 @@ Updated documentation
 
 -------------------------
 # V 0.8.28 - **Alpha Release #6**
--------------------------
+
 Added Resets buttons to the pref panel
 
 ### Code refactor
@@ -746,7 +730,7 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 0.8.27 - **Alpha Release #5**
--------------------------
+
 ### Code refactor
 - Initialization process in the scene has been refactored and cleaned
 - Post Load hanlders and patches application has been completely rewritten
@@ -757,7 +741,7 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 0.8.26 - **Alpha Release #4**
--------------------------
+
 ### Bug fixes:
 - Improved StoryLiner init state detection
 - Added a Reset item in the menu
@@ -765,14 +749,14 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 0.8.25 - **Alpha Release #3**
--------------------------
+
 ### Bug fixes:
 - Rename cameras from shot names fixed
 - attempt to cacht a crash when issues in the installation of the Python libs
 
 -------------------------
 # V 0.8.23 - **Alpha Release #2**
--------------------------
+
 ### Toolbar
 - Improved tools for Storyboard layout
 
@@ -782,7 +766,7 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 0.8.22
--------------------------
+
 ### Toolbar
 - Added items dedicated to Storyboard
 
@@ -790,7 +774,7 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 0.8.21
--------------------------
+
 ### Layouts
 - Introduction of new layouts: Hybrid and Edit
 - Clean-up in the Preferences panel for layout related features and behaviors
@@ -807,11 +791,10 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 0.8.15 - **Alpha Release**
--------------------------
 
 -------------------------
 # V 1.0.16
--------------------------
+
 ### Storyboarding
 - Moved the batch shots creations tools in the Shots menu to the Shot Tools section
 - Made the indice of the first shot of the batch stoyborad frame creation start at 10 instead of 0
@@ -832,20 +815,20 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 1.0.13
--------------------------
+
 ### Rendering
 - Added a progress bar in the render panel, and the ability to pause and cancel the rendering
 
 -------------------------
 # V 1.0.12
--------------------------
+
 - Removed the notion of current take
 - Added a list box to display and manage all the takes at the same time
 - Fixed rename of shot dependencies when a camera shot is renamed
 
 -------------------------
 # V 1.0.11
--------------------------
+
 - Added a global display mode to show and hide quick help buttons
 - Exposed some options for the Sequence Timeline to change its display size
 - Added a feature to make the name of the camera match the name of its shot
@@ -856,7 +839,7 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 1.0.10
--------------------------
+
 ### Rendering
 - Deep refactor in the rendering function
 - Fixed the sound that wasn't rendered for image sequences only
@@ -864,26 +847,26 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 1.0.9
--------------------------
+
 - Improved quick help components
 
 -------------------------
 # V 1.0.8
--------------------------
+
 ### Storyboard Export to PDF
 - Added an option to preserve the rendered snapshots
 - Cleaned some function names
 
 -------------------------
 # V 1.0.7
--------------------------
+
 - Updated the renderers available in the Render panel to support Cycles hardware rendering
 - Revamped the UI of the renderers
 - Fixed the name of the operator classes to add 'OT'
 
 -------------------------
 # V 1.0.6
--------------------------
+
 ### Storyboard Export to PDF
 - Added an Export Edit Board to PDF rendering button
 
@@ -895,7 +878,7 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 1.0.4
--------------------------
+
 - Added an import takes from Shot Manager feature
 
 - Removed the OTIO distribution and get it directly online
@@ -903,7 +886,7 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 1.0.3
--------------------------
+
 ### Project Settings
 - Project Settings can be saved to a json file and reloaded
 - Introduced a mode to have the settings directly taken from a json file and udpdated when the file changes
@@ -913,13 +896,13 @@ Cleaned methods to assign a category to a property
 
 -------------------------
 # V 1.0.2
--------------------------
+
 - Deep refactor to rename from Shot Manager to StoryLiner
 - CSS style sheet in doc
 
 -------------------------
 # V 1.0.1
--------------------------
+
 - Forked from Ubisoft Shot Manager add-on (https://github.com/ubisoft/shotmanager) V2.1.42
 
 
