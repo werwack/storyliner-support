@@ -40,12 +40,20 @@ In addition to all the drawing features coming to boost the Grease Pencil enviro
   <img src="images/Issues.png" width="160" />
   </a>
   &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/werwack/storyliner-support/blob/main/CHANGELOG.md" title="See the Change Log of the latest releases" target="_blank">
+  <img src="images/ChangeLog.png" width="160" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://werwackfx.com/storyliner/doc" title="Consult the online documentation" target="_blank">
   <img src="images/Documentation.png" width="160" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/werwack/storyliner-support/releases" title="Download the Light Edition of StoryLiner" target="_self">
-  <img src="images/Download.png" width="160" />
+  <img src="images/Download_light.png" width="160" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://blendermarket.com/products/storyliner" title="Get other edition of StoryLiner on Blender Market" target="_self">
+  <img src="images/Download_eds.png" width="160" />
   </a>
 </p>
 
