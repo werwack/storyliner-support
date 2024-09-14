@@ -52,7 +52,7 @@ In addition to all the drawing features coming to boost the Grease Pencil enviro
   <img src="images/Download_light.png" width="160" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://blendermarket.com/products/storyliner" title="Get other edition of StoryLiner on Blender Market" target="_self">
+  <a href="https://blendermarket.com/products/storyliner" title="Get other edition of StoryLiner on Blender Market" target="_blank">
   <img src="images/Download_eds.png" width="160" />
   </a>
 </p>
