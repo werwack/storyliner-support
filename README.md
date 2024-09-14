@@ -17,6 +17,11 @@
 
 In addition to all the drawing features coming to boost the Grease Pencil environment, StoryLiner introduces a true shot entity in Blender scenes, as well as a wide and powerful set of tools to build and edit sequences in real-time directly in the 3D context, in a non-linear way.
 
+<br>
+
+✨ See **what's new** in the **[change log](https://github.com/werwack/storyliner-support/blob/main/CHANGELOG.md)**.
+
+<br>
 
 > [!NOTE]
 > The Light edition is free. **[Give it a try !!](https://github.com/werwack/storyliner-support/releases)** Click on the Download button bellow and follow the installation instruction.
@@ -83,7 +88,7 @@ If you are looking for help:
 <br>
 <p align="center">
   <strong>Look at the <a href="https://werwackfx.com/storyliner/doc/editions/edition_differences.html" title="Difference between StoryLiner editions">
-  features of each edition</a> and pick the one that best fits your needs on Blender Market !<br>(Well... when it is available 😁)
+  features of each edition</a> and pick the one that best fits your needs on Blender Market !
   </strong>
 <p>
 
