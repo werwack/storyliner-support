@@ -1,4 +1,32 @@
 -------------------------
+# V 1.1.33
+-------------------------
+### Hybrid
+- Storyboard frames are now supported for cameras shared between several shots
+
+### UI
+- Added a warning message when output image name digit padding is lower than the number of digits of the highest rendered frame
+- Added a warning label in Project Settings when a space character is used in name templates
+
+### Bug fixes
+- Fixed error message when adding a new Storyboard Frame on a camera shared by several shots
+- Fixed invalid rendering range when Preview Time Range was activated. Preview Time Range is now ignored
+
+-------------------------
+# V 1.1.32 - **Beta**
+-------------------------
+### Bug fixes
+- Fixed issue [Stb_Fills Material is overridden #9](https://github.com/werwack/storyliner-support/issues/9): Stb_Fills Material is overridden when presets are applied
+- Fixed creation of canvas issues when it was re-generated
+
+-------------------------
+# V 1.1.31
+-------------------------
+### Bug fixes
+- Fixed issue [Can't Add Text as Child Object #12](https://github.com/werwack/storyliner-support/issues/12): missing import function preventing storyboard frame to receive children
+- Fixed issue [Adding Text as Child Object #13](https://github.com/werwack/storyliner-support/issues/13): added child text was not correctly oriented
+
+-------------------------
 # V 1.1.30
 -------------------------
 ### UI
