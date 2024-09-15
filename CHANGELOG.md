@@ -156,7 +156,17 @@ Changed Current viewport button icon
 - Attempt to change the project settings approach
 
 -------------------------
-## 1.0.70 - **Release**
+# V 1.0.70 - **Release**
+
+<p align="center">
+  <img align="center" width="auto" height="auto" src="https://github.com/werwack/storyliner-support/blob/main/images/StoryLinerV1-1.jpg">
+</p>
+
+See the page [What’s new in StoryLiner V1.1](https://werwackfx.com/?p=338)
+
+Or watch the video below:
+[![Watch the video What’s new in StoryLiner V1.1](https://img.youtube.com/vi/_RNrhVNRS5Q/maxresdefault.jpg)](https://youtu.be/_RNrhVNRS5Q)
+
 
 ### Bug fixes
 - Missing fps argument is some otio functions
