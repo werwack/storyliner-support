@@ -1,4 +1,16 @@
 -------------------------
+# V 1.2.1 - **Beta**
+(available to Studio Edition subscribers)
+
+### UI
+- Improved the Get Shot From Selected Camera operator to support children objects and to iterate on parent shots
+- Added a Get Selected Camera button in the Add New Shot panel
+- Remove ambiguous OK/Cancel buttons on Project Settings / Feature Toggles and Sequence Settings panels since modifications are done immediately
+
+### Tools
+- Added camera display filter (Storyboard edition and higher)
+
+-------------------------
 # V 1.1.33
 
 ### Hybrid
