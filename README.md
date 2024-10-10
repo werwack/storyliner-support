@@ -2,7 +2,7 @@
 
 <p align="center">
   <img align="left" width="auto" height="auto" src="images/Storyliner_Logo_Icon_100.png">
-  <img align="center" width="350" src="images/StoryLiner_Text_300.png"  />
+  <img align="center" width="350" src="images/StoryLiner_Text_300.png">
   <img align="right" width="150" src="images/spacer.png">
 </p>
 
