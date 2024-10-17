@@ -1,4 +1,56 @@
 -------------------------
+# V 1.2.11 - **Beta**
+(available to Studio Edition subscribers)
+
+See a user-friendly list of the new features here: [What’s new in StoryLiner V1.2](https://werwackfx.com/?p=410)
+
+### New feature: Snapshots
+- Snapshots are representative images that will illustrate a shot. Support for snapshots includes:
+    - Default snapshot (called "Start Snapshot") for each shot
+    - Additional custom snapshots list, in absolute time (= scene time) and shot relative time
+    - Easy manipulation of snapshots from the Shots Stack widget
+    - Batch rendering of all the snapshots of the edit
+    - Integration of the snapshots in the Edit Board
+
+### New feature: Camera Display Filter
+- In the Shots List panel, a button to activate a filtering of the cameras displayed in the scene has been added.
+  Filers can be fined-tuned from a dedicated dialog window.
+
+### Viewport Toolbar
+- Added support for animation on transform gizmos: keyframes are added when autokey is on, and only on the affected channels
+- Fixed action Align Object to View with Ctrl modifier: the Z axis of the object is now still aligned with the world Z axis
+- Fixed rotation issue when doing a camera dolly and pan
+
+### Drawing
+- Added options in the Drawing Grid button of free GP to set the size of the grid
+
+### Projet Settings
+- Added a quick help button to inform of the recommended values to use for the Stamp Info framed resolution
+- Added a dropdown with presets to set the rendered images resolution
+- Added a Reset to Default button for Naming Convention Identifiers
+
+### Rendering
+- Fixed wrong file format setting when exporting the Otio edit list
+- Improved resolution information displayed at the bottom of the render settings
+- Introduced Preferences settings to control the responsiveness of the interruption of the render queue Vs rendering speed
+- Exposed a first set of render properties for Edit Board: shot timings in frames and in SMPTE
+
+### Tools
+- Added support for a modifier key on the button Select Shot Camera to also frame it in the viewport
+- Added support for event of shot start and end value changed, for camera display filter
+
+### UI
+- Improved the tooltip of the passepartout controls
+- Exposed preference behaviors for Set Current Shot in a right-click menu on this button
+
+### Bug fixes
+- Added missing argument on shot selection event
+- Fixed the context of the Lock View operator so that it locks the target viewport, not the current one
+- Fixed alignment of view in the "Align View To Object" gizmo in the viewport toolbar: alignment is now correct when the active object
+  has a parent
+- Fixed alignment of the grid for free grease pencil objects 
+
+-------------------------
 # V 1.2.1 - **Beta**
 (available to Studio Edition subscribers)
 
