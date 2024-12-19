@@ -18,10 +18,20 @@
 In addition to all the drawing features coming to boost the Grease Pencil environment, StoryLiner introduces a true shot entity in Blender scenes, as well as a wide and powerful set of tools to build and edit sequences in real-time directly in the 3D context, in a non-linear way.
 
 <br>
+<span>
+  <strong>Current version is V 1.1.30</strong>. it supports <strong>Blender 3.6 to 4.2</strong>. The support for Blender 4.3 will come soon.
+  <br>✨ See <strong>what's new</strong> in the <strong><a href="https://github.com/werwack/storyliner-support/blob/main/CHANGELOG.md">change log</a></strong>.<br>
+</span>
 
-**Current version is V 1.1.30**.
+<br>
+<p align="center">
+  <img align="center" width="auto" height="auto" src="images/StoryLinerV1-2_low.jpg">
+</p>
 
-✨ See **what's new** in the **[change log](https://github.com/werwack/storyliner-support/blob/main/CHANGELOG.md)**.
+<span>
+  <strong>Want to know what's next? See <a href="https://werwackfx.com/?p=410" target="_blank">Exciting new features coming in StoryLiner V1.2</a></strong>
+  <br>Version 1.2 is currently in beta. If you own a Studio Edition, this beta is available in your Blender Market product page.<br>
+</span>
 
 <br>
 
@@ -61,7 +71,7 @@ In addition to all the drawing features coming to boost the Grease Pencil enviro
 
 <br>
 
-If you already are a user of StoryLiner and you are facing some "unnatural troubles", click here: <b><a href="https://github.com/werwack/storyliner-support/issues" title="Report and follow issues">I want to report an issue</a></b>
+If you already are a user of StoryLiner and you are facing some "unexpected behaviors", click here: <b><a href="https://github.com/werwack/storyliner-support/issues" title="Report and follow issues">I want to report an issue</a></b>
 
 If you are looking for help:
 <ul>
