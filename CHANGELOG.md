@@ -1,4 +1,92 @@
 -------------------------
+# V 1.2.16 - **Beta**
+(available to Studio Edition subscribers)
+See the page [Exciting new features coming in StoryLiner V1.2](https://werwackfx.com/?p=410)
+
+### Workflow and tools
+- Modified the settings to better control when manipulated shots are time framed
+- in the Shots Tools menu:
+  - Added an operator Duplicate / Move Selected Shot to Another Edit
+  - Added an operator Split Selected Shot
+
+### Interactive Shots Stack
+- Added a vertical scroll bar so that it becomes easy to see shots when there are many at the same time
+- Added an event absorber component at the bottom of the Interactive Shots Stack to allow the manipulation of the time scroll bar
+- Added a button to frame a specified shot (current, selected or from selected camera)
+- Fixed a major error message bug when the clip handles were placed too closed one from each other
+- Handles are now hidden when the interaction mode is off
+
+### Edit Timeline
+- Improved the display of frame values over 1000
+- Added a time change with Alt + Mouse Wheel
+- Added a toolbar on the left side of the timeline with:
+  - a button to frame the whole edit 
+  - a Spit Selected Shot button
+- Improved the support of the UI Scale preference value, all the widget is now scaled homogeneously
+- Added a small separator line to distinguish clips that have the same color
+- Code: Added an absorber in the toolbar component to prevent objects in the scene to be selected through the component
+- Code: Added a turnaround to avoid selecting shots under the Sequence Info component
+
+### UI
+- Improved the dialog window used to set the media for the camera backgrounds
+- Improved the information in the Preference features and in the Shots UI Behaviors panels
+- Added red warnings in Quick Help popup windows
+- Added a confirmation dialog window when the type of a shot is changed
+- Improved the camera display filtering rules
+
+### Snapshots
+- Storyboard Snapshots markers are now placed correctly on the shot clips in the Shots Stack when they are moved
+- Color conventions for the Go To Snapshot buttons is now correctly applied
+
+### Bug fixes
+- Fixed an error in the create take jobs where audioMediaMode variable was not always initialized
+- Fixed an important error when removing the camera background of a shot, all the content of the Sequence Editor was deleted
+- Fixed a bug in the default value of the passepartout alpha of new cameras
+- Fixed error messages when manipulating Storyboard shots with snapshots in the Interactive Shots Stack
+- Fixed a display offset of all the overlay tools when the preference Region Overlap is off
+- Fixed the view alignment in 2.5D panel that was not done in the target viewport
+- Fixed the view alignment in 2.5D panel to support the Top alignment
+- Fixed the show state of the cameras passpartout after a playback, when Use Opaque Passpartout is activated
+
+-------------------------
+# V 1.2.15 - **Beta**
+
+### UI
+- Exposed more options in the Shots Stack settings panel
+- Improved the time zoom widget in the Edit Timeline
+
+### Rendering
+- Added a checkbox to allow incremental playblast file rendering (activated by default)
+
+### Preferences
+- Reorganized the features order and introduced Shots Stack settings
+
+### Devices support
+- Added a correction screen factor for the Shots Stack in order to support high density tablets (experimental)
+
+### Bug fix
+- When the camera of the current shot is changed, the camera view in the viewport is now switched to this new camera
+- In Stamp Info, it was not possible to display only the current frame of either the video range or the scene range
+
+-------------------------
+# V 1.2.13 - **Beta**
+(available to Studio Edition subscribers)
+
+### UI
+- In the Edits list, clicking on the duration now also select the related edit in the list
+
+### Bug Fixes
+- Fixed an error when first take of take list was removed. Cleaned the code.
+- #145: Bug - fPDF dont want to install because cannot write in Pillow
+
+-------------------------
+# V 1.2.12 - **Beta**
+(available to Studio Edition subscribers)
+
+### Snapshots:
+- Merged the Snapshots branch
+
+-------------------------
 # V 1.2.11 - **Beta**
 (available to Studio Edition subscribers)
 
