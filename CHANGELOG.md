@@ -1,3 +1,32 @@
+
+-------------------------
+# V 1.2.20 - **Release**
+(available for each edition)
+See the page [Exciting new features of StoryLiner V1.2](https://werwackfx.com/?p=410)
+
+-------------------------
+# V 1.2.18 - **Beta**
+
+### UI
+- Added options to specify the start time of the shot in the Add New Shot dialog box 
+
+### Bug fixes
+- When a new Storyboard Shot is created in hybrid more, the start time was always the one of the sequence
+
+-------------------------
+# V 1.2.17 - **Beta**
+(available to Studio Edition subscribers)
+
+### Rendering
+- When set to Hardware mode, StoryLiner Renderer can now use the same shading mode as the one defined in the specified viewport
+- Improved the readability of the log messages produced by the render queue
+- Output folders for still images, playblasts, snapshots and edit boards are now prefixed with a "_" character to isolate them from shot folders
+
+### Bug fixes
+- Fixed an issue with the Split Shot: the button was disabled when only 1 shot was present in the edit
+- Fixed wrong default alignment for new Free GP
+- Fixed missing restoration of the current tool toolbar when some Viewport Toolbar tools were used
+
 -------------------------
 # V 1.2.16 - **Beta**
 (available to Studio Edition subscribers)
