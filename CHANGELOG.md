@@ -1,3 +1,13 @@
+-------------------------
+# V 1.2.21
+
+### UI
+- Exposed a thickness factor in the Preferences for the viewport frame displayed when autokey is on
+
+# Bug fixes
+- In the Viewport Toolbar, some camera buttons didn't have the right disabled color
+- In the Edit timeline of the second viewport, the time cursor was not correctly placed when the time was changed with the mouse
+- Fixed the display of the viewport frame when the timeline is displayed in another viewport
 
 -------------------------
 # V 1.2.20 - **Release**
