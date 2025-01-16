@@ -1,4 +1,23 @@
 -------------------------
+# V 1.2.321 - **Release for Blender 4.3**
+
+### Grease Pencil V3 support
+- Fixed display of the layers and groups in the template list
+- Fixed filters in the template list
+- Fixed layer draw messages
+
+-------------------------
+# V 1.2.318 - **Shared Alpha for Blender 4.3**
+
+### Grease Pencil V3 support
+- Fixed operators for layers manipulation
+- Added groups in the layers template list
+- Fixed the lock and visibility buttons
+
+### UI
+- Adjusted position of the Edit Timeline and the Viewport Toolbar so that they stay visible when the assert shelf is displayed
+ 
+-------------------------
 # V 1.2.21
 
 ### UI
