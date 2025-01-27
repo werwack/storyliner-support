@@ -1,5 +1,22 @@
 -------------------------
-# V 1.2.321 - **Release for Blender 4.3**
+# V 1.2.323 - **Release**
+(available for each edition - For Blender 4.3+ only)
+
+### Grease Pencil V3 support
+- Fixed issues in Retimer for grease pencil objects, annotations and shapes ("retimer doesn't work" #19)
+
+-------------------------
+# V 1.2.322
+(available for each edition - For Blender 4.3+ only)
+
+### Grease Pencil V3 support
+- Fixed material of active layer
+- Fixed selected stroke and move stroke to layers
+- Support for layer group colors on Blender 4.4
+ 
+-------------------------
+# V 1.2.321 - **Release**
+(available for each edition - For Blender 4.3+ only)
 
 ### Grease Pencil V3 support
 - Fixed display of the layers and groups in the template list
@@ -16,7 +33,14 @@
 
 ### UI
 - Adjusted position of the Edit Timeline and the Viewport Toolbar so that they stay visible when the assert shelf is displayed
- 
+
+ -------------------------
+# V 1.2.22 - **Release**
+(available for each edition)
+
+### Bug fixes
+- Fixed restore render settings error message for ffmpeg preset
+
 -------------------------
 # V 1.2.21
 
