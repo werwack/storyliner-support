@@ -1,4 +1,19 @@
 -------------------------
+# V 1.2.324 - **Release**
+(available for each edition - For Blender 4.3+ only)
+
+### Grease Pencil V3 support
+- Fixed an error message in the Retimer when a Storyboard Frame was moved in the Shots Stack
+- Fixed an error message when the Use Layers and Materials Presets preference were activated
+
+### Retimer
+- (from 1.2.24) Removed a call to Retimer when shots are offset with a delta time of 0
+
+### Bug fixes
+- Fixed __init__() issue in Edit Timeline and in Shots Stack on Blender 4.4a
+- Fixed shader issue gpu library when displaying textures on UI components in Blender 4.4a
+ 
+-------------------------
 # V 1.2.323 - **Release**
 (available for each edition - For Blender 4.3+ only)
 
