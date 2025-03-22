@@ -19,7 +19,7 @@ In addition to all the drawing features coming to boost the Grease Pencil enviro
 
 <br>
 <span>
-  <strong>Current version is V 1.2.21</strong>. it supports <strong>Blender 3.6 to 4.3</strong>.
+  Current version is <strong>V 1.2.31 for Blender 3.6 to 4.2</strong> and <strong>V 1.2.341 for Blender 4.3 and 4.4</strong>.
   <br>✨ See <strong>what's new</strong> in the <strong><a href="https://github.com/werwack/storyliner-support/blob/main/CHANGELOG.md">change log</a></strong>.<br>
 </span>
 
