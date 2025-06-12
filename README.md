@@ -19,17 +19,17 @@ In addition to all the drawing features coming to boost the Grease Pencil enviro
 
 <br>
 <span>
-  Current version is <strong>V 1.2.31 for Blender 3.6 to 4.2</strong> and <strong>V 1.2.341 for Blender 4.3 and 4.4</strong>.
+  Current version is <strong>V 1.3.430 for Blender 4.3 and 4.4</strong>.
   <br>✨ See <strong>what's new</strong> in the <strong><a href="https://github.com/werwack/storyliner-support/blob/main/CHANGELOG.md">change log</a></strong>.<br>
 </span>
 
 <br>
 <p align="center">
-  <img align="center" width="auto" height="auto" src="images/StoryLinerV1-2_low.jpg">
+  <img align="center" width="auto" height="auto" src="images/StoryLinerV1-3_low.jpg">
 </p>
 
 <span>
-  <strong>Want to know what are the latest changes? See <a href="https://werwackfx.com/?p=410" target="_blank">Exciting new features of StoryLiner V1.2</a></strong>
+  <strong>Want to know what are the latest changes? See <a href="https://werwackfx.com/?p=595" target="_blank">New features in  StoryLiner V1.3</a></strong>
   <br>
 </span>
 
