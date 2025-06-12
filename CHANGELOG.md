@@ -1,3 +1,153 @@
+# V 1.3.430  **Release for Blender 4.3+**
+-------------------------
+
+### UI
+- Added a toggle button dedicated to the display of the Viewport Toolbar and removed this display from the Dopesheet Toogle Overlay Toolgs button
+
+-------------------------
+# V 1.3.425  - **Beta Release for Blender 4.3+**
+
+### Layers view
+- Added the operator wk.expand_layer_groups_to_active to show the item parents hierarchy and expand it if needed
+- Added a UI display mode to present a custom layout for layer group indentations (see prefs.pkit_layerViewUseWkGroupIcons_ui)
+
+### Bug fixes
+- Fixed a missing "drawing" level in a greace pencil stroke call
+- Finished the function 
+
+-------------------------
+# V 1.3.424  - **Beta Release for Blender 4.3+**
+
+### Stamp Info
+- Added a new time property to stamp the rendered image index in the shot reference time
+- Improved the notes stamping: Now shot notes - if there are -  override the Stamp Info notes
+- Ensured that the Stamp Info settings visible in the panel are the ones that will be used at render time
+- On the stamped image, 3D Frame is now called Scene Frame
+
+- Warning: in setStampInfoSettingsFromBuiltIn, not all the properties are set!!!
+
+### Edit Timeline
+- Added a new time cursor to display the current time in the shot reference time (to enable in the Edit Timeline settings)
+
+-------------------------
+# V 1.3.418 Alpha
+
+### Interactive Shots Stack
+  - Improved performances by fixing the use of interactShotsStack_lanesOffset
+
+### Bug fixes
+  - Fixed interaction issues with Blender transform gismos when Shots Stack was activated due to issues with interactShotsStack_lanesOffset
+
+-------------------------
+# V 1.3.417 Alpha
+
+### Drawing UX
+  - Added a Toggle Autokey in the Draw mode
+  - Fix the drawing key frame warning alert
+  - Added Multiedit and Use Additinve Drawing modes
+
+-------------------------
+# V 1.3.416 Alpha
+
+### Collections toggle
+- added support of view layers
+
+-------------------------
+# V 1.2.415 Alpha
+
+### UI
+- Improved the UI of the Features section in the Preferences panel
+
+### Retimer
+- Added an Avanced section to expose VSE properties
+- Locked VSE channels and strips are now fully supported and restored after the retime
+- The mode "Apply to Selected Objects" has been renamed to "Apply to Specified Entities" for better clarity
+- UI of Specified Entities mode has been reorganized
+- Fixed bug when annotations were retimed
+
+### Bug fixes
+- Added options=set() to all common shot properties to prevent them to be animated
+
+-------------------------
+# V 1.3.413 Alpha
+
+### Objects toggle
+- Added object toggle feature
+
+### Retimer
+- Added an Avanced section to expose VSE properties
+- Locked VSE channels and strips are now fully supported and restored after the retime
+- The mode "Apply to Selected Objects" has been renamed to "Apply to Specified Entities" for better clarity
+- UI of Specified Entities mode has been reorganized
+- Fixed bug when annotations were retimed
+
+### Bug fixes
+- Added options=set() to all common shot properties to prevent them to be animated
+- Fix on project settings error message
+- Fixed error message in Parametric Collections filter
+- Small fix on project settings error message
+
+# V 1.3.408
+-------------------------
+
+### Shots and takes
+- Replaced suffix "_duplicate" used for duplicated shots and takes by a digit starting with "_" (eg: Sh0010_000)
+
+-------------------------
+# V 1.3.407 Alpha
+
+### Collections toggle
+- Added Shot Specific collection filter
+- Added icon for useCollectionsToggleMode
+- Moved the useCollectionsToggleMode operator button on left side of the panel
+- Added an operator to link objects selected in the Outliner to the collection of a Single Coll filter
+
+### Grease pencil v3
+- fixed issue with property use_mask_layer replaced by use_masks
+
+### Bug fixes
+- Fixed error message when Filter Cameras mode is toggled and there is not current camera in the scene
+
+### Retimer
+- Fixed a bug went deleting time on GP objects
+
+-------------------------
+# V 1.2.330
+
+### Support for Blender 4.4:
+- Removed SL props initialization from poll() functions
+- Added a patch for props property hasBeenInitialized
+
+-------------------------
+# V 1.2.328
+
+### Bug fixes
+- Removed the use of the package "request" in utils_os.py due to errors on some Blender instances
+- Non-latin character of some languages (greek, polish...) were not supported by the Editboard
+
+-------------------------
+# V 1.2.326
+
+### UI
+- Added a "Check All" and a "Copy to Clipboard" buttons to the Batch Shot Renamer
+- Simplified the actions of the "Check All" button that controls the enabled state of the shots in the shots list
+
+-------------------------
+# V 1.2.326
+
+### Grease Pencil V3 support
+- Fixed the Clear Frame operator
+- Fixed multiframe viewport frame display
+
+### Bug fixes
+- Fixed autokey viewport frame display that was drawn above the assets toolbar
+
+-------------------------
+# V 1.2.325 - **Release**
+
+### Shots Tools: Batch Shot Renamer
+- (from 1.2.25) Added a new tool to batch rename all the shots of the current edit
+- 
 -------------------------
 # V 1.2.324 - **Release**
 (available for each edition - For Blender 4.3+ only)
