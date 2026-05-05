@@ -11,7 +11,7 @@
 - Added more options to the Storyboard Grid Settings Panel to control the scene background color and color mode
 
 -------------------------
-# V 1.6.36 Beta ** beta 9 **
+# V 1.6.36 Beta 9
 
 ### Storyboard Frames
 - Added a SL Lens property to control the camera lens while keeping the storyboard frame size updated
@@ -23,7 +23,7 @@
 - Fixed several animation data issues related to the Python API changes of Blender 5
 
 -------------------------
-# V 1.6.35 Beta ** beta 8 **
+# V 1.6.35 Beta 8
 
 ### UI
 - Made storyboard frame global settings properties specific to storyboard shots disabled for other types of shots
@@ -37,7 +37,7 @@
 - Fixed little UI display issue on overlay frames when Edit Timeline is hidden Draw mode
 
 -------------------------
-# V 1.6.34 Beta ** beta 7 **
+# V 1.6.34 Beta 7
 
 ### Retimer
 - Updated code to support changes in API related to fcurves not belonging to actions anymore
@@ -50,7 +50,7 @@
 - Fixed small offset on tiny toolbar
 
 -------------------------
-# V 1.6.33 Beta ** beta 6 **
+# V 1.6.33 Beta 6
 
 Merged improvements from V1.5.32:
 
@@ -70,7 +70,7 @@ Merged improvements from V1.5.32:
 - In the Shot info panel, the index of the shot in the edit is now visible 
 
 -------------------------
-# V 1.6.21 Beta ** beta 3 **
+# V 1.6.21 Beta 3
 
 ## Merged V 1.5.20 and all changes since V 1.5.15:
 
@@ -86,7 +86,7 @@ Merged improvements from V1.5.32:
 - Various fixes to ensure editions work
 - Renamed LICENSE to LICENSE.md
 
-# Python dependencies
+### Python dependencies
 - Re-activated the installation of OpenTimelineIO on Mac
 
 ### UI
@@ -120,7 +120,7 @@ Merged improvements from V1.5.32:
 - Renamed misnamed class DATA_PT_per_camera_resolution to WKSL_PT_per_camera_resolution to avoid conflict with other add-ons
 
 -------------------------
-# V 1.5.14 Beta ** beta 4 ** ** shared only for japanese font testing **
+# V 1.5.14 Beta 4
 -------------------------
 
 ### Edit board
