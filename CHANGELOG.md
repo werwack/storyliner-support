@@ -1,5 +1,159 @@
-# V 1.3.430  **Release for Blender 4.3+**
+# V 1.6.41
 -------------------------
+
+### 2.5D Free GP
+- Added quick control over the viewport background color
+
+### Stoyboard
+- Improved the drawing experience thanks to the introduction of a Precision Scale Factor that increases the internal
+  scale of the storyboard frames 
+- Added an option to the Storyboard Grid button to better alternate between shot and grid view
+- Added more options to the Storyboard Grid Settings Panel to control the scene background color and color mode
+
+-------------------------
+# V 1.6.36 Beta ** beta 9 **
+
+### Storyboard Frames
+- Added a SL Lens property to control the camera lens while keeping the storyboard frame size updated
+
+### UI
+- Ensure that the responsive design of the main SL panel and the Render panel also works when those panels are displayed in the Properties editor
+
+### Bug fixes
+- Fixed several animation data issues related to the Python API changes of Blender 5
+
+-------------------------
+# V 1.6.35 Beta ** beta 8 **
+
+### UI
+- Made storyboard frame global settings properties specific to storyboard shots disabled for other types of shots
+
+### Storyboard Frame
+- Added Arrange Strokes operators to Storyboard Frame properties panel
+- Added a Use Lights property to the dialog box to create Free GPs
+
+### Bug fixes
+- Fixed error in the Retimer due to current scene not set on the sequencer
+- Fixed little UI display issue on overlay frames when Edit Timeline is hidden Draw mode
+
+-------------------------
+# V 1.6.34 Beta ** beta 7 **
+
+### Retimer
+- Updated code to support changes in API related to fcurves not belonging to actions anymore
+
+### Grease Pencil
+- Updated code to support the grease pencil grids that are now in viewport overlays (since Blender 4.3)
+
+### Tools
+- Added a rotation only mode on 3D cursor alignment in the viewport toolbar
+- Fixed small offset on tiny toolbar
+
+-------------------------
+# V 1.6.33 Beta ** beta 6 **
+
+Merged improvements from V1.5.32:
+
+### Bug fixes
+- Fixed error message related to the generation of the Edit file when rendering in All mode
+- Fixed error message in getOwnerObjectAndProp() when owner is not found
+
+### OTIO
+- Revamped the Import Edit from Edit File dialog window
+- Introduced dedicated output edit file formats for full compatibility with Davinci Resolve
+- Otio files are now supported at import too
+- Image sequences can now be used for camera backgrounds
+- Many small fixes to provide more information about the conformation changes
+
+### UI
+- Zoom to Time Range operation now let more spare time before and after the range
+- In the Shot info panel, the index of the shot in the edit is now visible 
+
+-------------------------
+# V 1.6.21 Beta ** beta 3 **
+
+## Merged V 1.5.20 and all changes since V 1.5.15:
+
+### Terminology changes
+- Replaced the term "Camera Shot" by "Action Shot"
+
+### Installation
+- Fixed an issue on Mac in the GetPythonPath() function
+- Fixed the GetPythonPath() function to provide a correct folder path for the venv on Linux
+- Fixed invalid path for Python folder in the venv on Linux
+
+### Code
+- Various fixes to ensure editions work
+- Renamed LICENSE to LICENSE.md
+
+# Python dependencies
+- Re-activated the installation of OpenTimelineIO on Mac
+
+### UI
+- Added a project name and logo to edit board and sequence
+- Added an option in Stamp Info to get the project name and logo defined for the sequence of the current scene
+- Set the display of the Scripts Launcher panel to off by default
+- Added 2 parameters in the Shots Global Control section to toggle the display of the camera names
+
+### Rendering
+- Added an option to open the rendered still images in the same Image Viewer window instead of a new one each time
+- Added a Gif exported based on the rendered snapshots and their timing
+- Added a Copy to Clipboard post batch rendering option to Still renderings
+
+### API
+- Restructured the samples directory
+- Added an example to be ran in Blender background mode
+- Fixed errors in background mode: in order to avoid the loading of gpu module, StoryLiner is loaded in Light Edition mode
+
+### Utilities
+- Added a Scripts Launcher panel to run Python script files (currently visible by default in the N-Panel)
+
+### Assets
+- Added a description json file to each asset font folder
+- Introduced Noto as the default font, in order to support japanese characters
+
+### Bug fixes
+- Fixed xml import for conformation when sequence name is not specified
+- Made the viewport frames (autokey, camera manipulation...) visible also when Overlays are turned off (can be changed in the Preferences)
+- Fixed a display issue in the viewport frames display when the Edit Timeline was also displayed
+- Fixed operator wksl_utils.toggle_lock_view_rotation: rotation is now locked for current viewport, not for target one anymore
+- Renamed misnamed class DATA_PT_per_camera_resolution to WKSL_PT_per_camera_resolution to avoid conflict with other add-ons
+
+-------------------------
+# V 1.5.14 Beta ** beta 4 ** ** shared only for japanese font testing **
+-------------------------
+
+### Edit board
+- Added a Thumbnail layout
+- Refactor and cleaned the code
+- Introduced a new font in the asset resources to display japanese characters (currently integrated into the package)
+  
+- Merged V 1.5.12 and 13, bug fixes and changes related to PDF exporter
+
+### UX/UI
+- Added a Get Camera From Viewport feature in the Add New Shot panel
+
+### Bug fixes
+- Fixed missing property issue with renderShadingMode in render settings for "From Scene" mode
+- Replaced Arial fond used in PDF export by Helvetica, for Linux compatibility
+- Fixed rendering issues due to the new split between images and videos in the render settings panel
+- Fixed color management issue
+- Fixed continuous draw mode that was broken since V1.3.442
+
+### Installation / Code
+- Introduced the use of a venv for Python libraries, thanks to the integration of venvman
+  (Copyright (C) 2025 Plyrolith - https://github.com/Plyrolith/venvman)
+
+### Rendering
+- Added support for rendered camera backgrounds - step 1
+
+### Stamp Info
+- Added images for background, midground and foreground
+
+(...)
+
+-------------------------
+# V 1.3.430  **Release for Blender 4.3+**
 
 ### UI
 - Added a toggle button dedicated to the display of the Viewport Toolbar and removed this display from the Dopesheet Toogle Overlay Toolgs button
