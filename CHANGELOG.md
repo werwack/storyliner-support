@@ -1,10 +1,240 @@
+-------------------------
+# V 1.7.32 Beta  ** beta 3 **
+
+### Bug fixes
+- Fixed an error at add-on installation time due to icons list not ready
+
+-------------------------
+# V 1.7.30 Beta  ** beta 1 **
+
+### Video Tracks
+- Although still an experimental module, StoryLiner Video Tracks is now activated by default
+- It is now possible to manipulate a channel as we would in a video editing application: a new track can be inserted, cleared, deleted,
+  moved up and down
+
+-------------------------
+# V 1.7.22 Alpha  ** alpha 12 **
+
+### UI
+- Improved the Theme Colors panel by adding a dropdown to change the current theme and a button to refresh the icons of StoryLiner
+- Retimer panel is now also docked in the Scene Properties panel when StoryLiner main panel is set to be in that editor
+
+### Video Tracks
+- Added a button on the Sequencer menu bar to toggle the editor display between the Preview and the 3D View
+- Several small UI improvements and fixes, in particular on the display of the media time range of the strips
+
+### UI
+- Improved the Theme Colors panel by adding a dropdown to change the current theme and a button to refresh the icons of StoryLiner
+- Retimer panel is now also docked in the Scene Properties panel when StoryLiner main panel is set to be in that editor
+
+### Video Tracks
+- Added a button on the Sequencer menu bar to toggle the editor display between the Preview and the 3D View
+- Several small UI improvements and fixes, in particular on the display of the media time range of the strips
+
+-------------------------
+# V 1.7.20 Alpha  ** alpha 10 **
+
+
+### Blender 5.3 support
+- OpenTimelineIO is now installed by default in Blender 5.3. Done some code fixes to support the changes
+
+### UI
+- Added Scene Background Color widget to the display properties in SL main panel
+
+### Video Tracks
+- Reorganized some parts of the UI related to the strip operators
+- Scene range time values are now displayed on the Scene Strips, as part of the Overlays
+- Movie and Sound strips now also have a media time range overlay display
+
+-------------------------
+# V 1.7.15 Alpha  ** alpha 9 **
+
+### Rendering
+- Re-fixed a color space issue when rendering the whole sequence from the SL Render panel
+- Improved Stamp Info displayed information when rendering from the Sequencer
+
+### Bug fixes
+ - Fixed issue when resetting theme color
+
+-------------------------
+# V 1.7.14 Alpha  ** alpha 8 **
+-------------------------
+
+### Rendering
+- Fixed a color space issue when rendering the whole sequence from the SL Render panel
+
+### UI
+- Added a menu to apply more convenient colors than the Blender default theme ones to some UI elements of the editors
+
+### Video Tracks
+- Fixed missing shot value in the Set Shot poppup window
+- Code refactoring and bug fixing
+
+-------------------------
+# V 1.7.13 Alpha  ** alpha 7 **
+
+### Video Tracks
+- Redesigned the whole shot strip workflow and related UI to smooth the experience:
+    - Shot Strips are now create from the Add->StoryLiner meny
+    - Right-click menu on strips now has a StoryLiner entry
+- Fixed an issue with the rendering time range
+- Added a popup to display detailled information about the currently edited sequencer edit
+- Added a button to create a Meta Strip containing all the shots of an edit
+- Refactored some parts of the code to better support sequence levels in metas
+- Extended the features of the Fit View operator on the toolbar 
+- Fixed a crash when calling Undo with the Tracks Overlays displayed
+
+### Bug fixes
+- Fixed the Open Folder action for the rendering of still images
+
+-------------------------
+# V 1.7.11 Alpha  ** alpha 6 **
+
+### Video Tracks
+- Refactored some code related to the display of strip overlays (introduced strip classes)
+- Improved meta strips overlay display (still wip)
+- Improved meta strips breadcrumb
+
+-------------------------
+# V 1.7.10 Alpha  ** alpha 5 **
+
+### Video Tracks
+- Fixed a bug in wksl_video_tracks.match_shot_and_strip_timings
+
+### StoryLiner Scene Properties
+- Added a Notes property so that each instance of StoryLiner can hold a description of the scene it belongs to 
+
+-------------------------
+# V 1.7.9 Alpha  ** alpha 4 **
+
+### Video Tracks
+- Changed the workflow approach from channel-centered to strip centered
+- Added a Getting Started tutorial here: [When Blender’s Sequencer meets StoryLiner Video Tracks – Latest improvements](https://werwackfx.com/?p=1192)
+
+### Bug Fix
+- Fixed an EnumProperty issue in _get_stb_camLensMode
+
+-------------------------
+# V 1.7.8 Alpha
+
+### UI
+- Exposed settings to invert the vertical mouse move for each gizmo of the overlay toolbar requiring one
+
+-------------------------
+# V 1.7.7 Alpha  ** alpha 3 **
+
+### General
+- Added workspaces and New File assets for Main Edit and Sketch 
+
+### Video Sequencer
+- Improved Video Tracks UI and workflow
+- When the Main Edit scene is created from the button at the top of the SL main panel, the SL Edit workspace is loaded
+- Moved the breadcrumb to the sequencer editor header
+
+### Support for linked scenes
+- First round of support for linked scenes, in order to be able to integrate them in the main edit done in the
+  Sequencer panel
+- StoryLiner main panel and the selected shot property one have now a good balance between properties that are
+  still editable and those that are disabled
+
+### API
+
+## Changes
+- Added a fite edit.py to wrap the takes. Use it instead of take.py
+
+## Samples
+- panel_basic_controls_with_api__step1.py: New sample file with controls on a panel to present how the API can
+  be used to manipulate the current shot and render it
+
+## Deprecation
+- file take.py will be removed in StoryLiner V1.8
+- All the functions using "take" in their name are deprecated. Since the term "take" has been replaced by "edit"
+  in order to be mode consistent with the terminology on the user side, replace those functions in your code
+  by the ones containing the word "edit"
+
+-------------------------
+# V 1.7.6 Alpha
+
+### UI
+- Added a menu item in Dopesheets and Sequencers to toggle the display of the editor footer
+- Improved tooltips on the Set Scene Start and End buttons
+
+### Video Sequencer
+- Added Time Range controls (first iteration)
+
+-------------------------
+# V 1.7.5 Alpha  ** alpha 2 **
+
+### Shot Properties
+- Added an option to preserve the camera name when creating a new shot based on existing camera
+- Fixed an issue on the Camera Rename button in order to affect only the selected camera by default
+- Support the import of audio files in the Camera Background feature
+
+### Video Tracks
+- Reverted the use of the property named content_frame
+- Fixed misplaced meta strip when updating SL Edit channel track type
+- Reverted the use of the property named content_frame
+- Fixed misplaced meta strip when updating SL Edit channel track type
+- Added shot cuts overlay on edit clips
+- Introduced a notion of Main Edit Scene (not yet fully integrated)
+- Many fixes to fix the forth and back workflow between a scene and the main edit
+
+-------------------------
+# V 1.7.4 Alpha ** alpha 1 **
+
+First released alpha version
+
+### Notes
+- All the note fields (on shots, snapshots, Stamp Info) are now supporting multilines editing. Their UI componenet has been replaced
+  by a multiline widget
+- Notes 02 and 03 are still supported but have been deprecated and are now hidden (unless they have a non-empty value)
+- A parameter has been added to the add-on Preferences to display all the deprecated note properties
+
+### Edit board
+- Exposed more properties to better control the information in the Overall stats page
+- Fixed an issue with the shot page value in the Overall page that was wrong by 1
+
+-------------------------
+# V 1.7.0
+-------------------------
+
+### Rendering
+- When doing a Render All, it is now possible to use an incremental output folder name
+
+### Bug fixes
+- Fixes a wrong call to Shot Stack (reported issue #37)
+- Fixed error message in install_dependencies when opentimelineio is not found
+
+-------------------------
+# V 1.6.50
+
+### Storyboard Shots
+- Added global control tools to set the SL Lens and other storyboard frame settings
+
+### Json export
+- Added properties shot_index_in_edit and note01, note01, note03 to the exported shot properties
+
+### UI
+- Added an option in the Edit Timeline to move the time cursor without changing the view
+
+### Storyboard Shots
+- Added a depsgraph handler to automatically update the size of the storyboard frame
+
+### Render
+- Added a button to re-render a sequence video based on exisiting shots media
+- Added a Render Step setting to render only some frames and then provide a stop-motion-like effect
+
+### Bug fixes
+- Fixed display issue in the viewport when drawing the viewport frame with several viewports
+- Changed output color mode for sequence video from Raw to Standard
+
 # V 1.6.41
 -------------------------
 
 ### 2.5D Free GP
 - Added quick control over the viewport background color
 
-### Stoyboard
+### Storyboard
 - Improved the drawing experience thanks to the introduction of a Precision Scale Factor that increases the internal
   scale of the storyboard frames 
 - Added an option to the Storyboard Grid button to better alternate between shot and grid view
@@ -121,7 +351,6 @@ Merged improvements from V1.5.32:
 
 -------------------------
 # V 1.5.14 Beta 4
--------------------------
 
 ### Edit board
 - Added a Thumbnail layout
@@ -149,8 +378,6 @@ Merged improvements from V1.5.32:
 
 ### Stamp Info
 - Added images for background, midground and foreground
-
-(...)
 
 -------------------------
 # V 1.3.430  **Release for Blender 4.3+**
@@ -241,8 +468,8 @@ Merged improvements from V1.5.32:
 - Fixed error message in Parametric Collections filter
 - Small fix on project settings error message
 
-# V 1.3.408
 -------------------------
+# V 1.3.408
 
 ### Shots and takes
 - Replaced suffix "_duplicate" used for duplicated shots and takes by a digit starting with "_" (eg: Sh0010_000)
@@ -301,7 +528,7 @@ Merged improvements from V1.5.32:
 
 ### Shots Tools: Batch Shot Renamer
 - (from 1.2.25) Added a new tool to batch rename all the shots of the current edit
-- 
+
 -------------------------
 # V 1.2.324 - **Release**
 (available for each edition - For Blender 4.3+ only)
